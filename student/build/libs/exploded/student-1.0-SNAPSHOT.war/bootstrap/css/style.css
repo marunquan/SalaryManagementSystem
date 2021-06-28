@@ -1,0 +1,44 @@
+@charset "UTF-8";
+#contain{
+	height:80px;
+	width:100%;
+	background-color:#00BFFF/*#2772fc*/;
+}	
+#header{
+	height:100%;
+
+	padding-left:12%;
+	line-height:75px;
+	color:white;
+	font-size:28px;
+	font-face:楷体;
+	width:60%;
+	float:left;
+}
+#f{
+	/*position:absolute;*/
+	width:22%;
+	height:290px;
+
+	text-align:center;
+	background: rgba(	245,245,245, 0.8);
+	text-align:center;
+	border-radius: 10px;
+	z-index: 1;
+}
+#aside{
+	height:800px;
+	width:100%;
+	padding-left: 75%;
+	padding-top:70px;
+	background-image: url("timg.jpg");
+	background-size:99.4% 800px;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	z-index: 2;
+}
+
+
+table{border-right:1px solid #F00;border-bottom:1px solid #F00} 
+td{border-left:1px solid #F00;border-top:1px solid #F00} 
+th{border-left:1px solid #F00;border-top:1px solid #F00} 
